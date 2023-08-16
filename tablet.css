@@ -1,0 +1,29 @@
+.home-page{
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: 1fr ;
+}
+.logo{
+  justify-content: center;
+}
+.mockup img{
+  width: 360px;
+  height: auto;
+}
+.mockup{
+  display: none;
+}
+
+.titles{
+  display: flex;
+  text-align: center;
+}
+
+@media (max-width: 535px){ 
+  h1{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+}
