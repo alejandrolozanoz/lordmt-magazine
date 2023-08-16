@@ -15,43 +15,37 @@ body{
   background-color: var(--green);
   font-family: 'AvenirLTStd', sans-serif;
   word-spacing: 5px;
-  overflow: hidden;
 }
-.home-page{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.titles{
+.informacion{
+  min-height: 100vh;
   display: flex;
-  height: 100vh;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0 50px 0 50px;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
 }
 .logo{
-  width: 100%;
   margin: 0;
-  display: flex;
-  justify-content: flex-start;
+  width: 100%;
+}
+.logo img{
+  width: 100%;
+  max-height: 39px;
+  max-width: 275px;
+}
+h1, h2{
+  width: 100%;
+  font-weight: 100;
 }
 h1 {
   color: white;
-  font-size: 4.4rem;
+  font-size: 3.3rem;
   margin-bottom: 0;
-  width: 100%;
-  font-weight: 100;
 }
 h2{
-  width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--gray);
-  font-weight: 100;
-}
-.mockup img{
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
 }
 .botones{
   width: 100%;
@@ -73,18 +67,6 @@ button:hover{
   background-color: #D08248;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
-/* 
-.botones-descarga{
-  display: flex;
-  flex-direction: row;
+.mockup{
+  display: none;
 }
-.botones-descarga a{
-  width: 140px;
-  height: 50px;
-  margin-right: 5px;
-}
-.botones-descarga img{
-  width: 100%;
-  height: 100%;
-} */
-
