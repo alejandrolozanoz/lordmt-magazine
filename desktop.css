@@ -16,7 +16,6 @@
 }
 .informacion{
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,6 +35,14 @@ h2{
   width: 100%;
   font-size: 2rem;
   font-weight: 100;
+}
+.social-media .icon{
+  height: 45px;
+  width: 45px;
+}
+.social-media .icon img{
+  height: 30px;
+  width: 30px;
 }
 .mockup{
   display: block;

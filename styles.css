@@ -67,6 +67,51 @@ button:hover{
   background-color: #D08248;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
+.social-media{
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+.social-media .icon{
+  margin: 0 10px;
+
+}
+.social-media .icon{
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+/*border: 2px solid var(--orange);  */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.social-media .icon img{
+  height: 20px;
+  width: 20px;
+}
+.social-media .icon:hover {
+  background-color: var(--orange);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
+  transition: box-shadow .5s, background-color .5s;
+}
+.social-media .instagram:hover img{
+  content: url(./logos/instagram-white.svg);
+}
+.social-media .tiktok:hover img{
+  content: url(./logos/tiktok-white.svg);
+}
+.social-media .spotify:hover img{
+  content: url(./logos/spotify-white.svg);
+}
+.social-media .x:hover img{
+  content: url(./logos/x-twitter-white.svg);
+}
+.link-container{
+  display: contents;
+}
 .mockup{
   display: none;
 }
