@@ -73,18 +73,14 @@ button:hover{
   justify-content: center;
 }
 .social-media .icon{
-  margin: 0 10px;
-
-}
-.social-media .icon{
+  margin: 0 7px;
   height: 35px;
   width: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: var(--gray);
   border-radius: 50%;
-/*border: 2px solid var(--orange);  */
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 } 
 
@@ -93,11 +89,11 @@ button:hover{
   width: 20px;
 }
 .social-media .icon:hover {
-  background-color: var(--orange);
+  background-color: #ffff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
-  transition: box-shadow .5s, background-color .5s;
+  transition: box-shadow 1s, background-color 1s;
 }
-.social-media .instagram:hover img{
+/* .social-media .instagram:hover img{
   content: url(./logos/instagram-white.svg);
 }
 .social-media .tiktok:hover img{
@@ -108,7 +104,7 @@ button:hover{
 }
 .social-media .x:hover img{
   content: url(./logos/x-twitter-white.svg);
-}
+} */
 .link-container{
   display: contents;
 }
