@@ -93,21 +93,22 @@ button:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
   transition: box-shadow 1s, background-color 1s;
 }
-/* .social-media .instagram:hover img{
-  content: url(./logos/instagram-white.svg);
-}
-.social-media .tiktok:hover img{
-  content: url(./logos/tiktok-white.svg);
-}
-.social-media .spotify:hover img{
-  content: url(./logos/spotify-white.svg);
-}
-.social-media .x:hover img{
-  content: url(./logos/x-twitter-white.svg);
-} */
 .link-container{
   display: contents;
 }
 .mockup{
   display: none;
+}
+.aviso-privacidad, .terminos-condiciones{
+  padding: 30px;
+}
+.aviso-privacidad h1, .terminos-condiciones h1{
+  color: var(--orange);
+}
+.aviso-privacidad h2, .terminos-condiciones h2{
+  color: white;
+}
+.aviso-privacidad p, .terminos-condiciones p{
+  color: var(--gray);
+  font-size: 1.5rem;
 }
