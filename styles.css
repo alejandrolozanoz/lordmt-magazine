@@ -112,3 +112,12 @@ button:hover{
   color: var(--gray);
   font-size: 1.5rem;
 }
+.link-magazine {
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+}
